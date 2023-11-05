@@ -1,0 +1,55 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: lightblue;
+}
+
+.program-heading {
+  font-size: 24px;
+  margin: 20px 0;
+  color: #333;
+}
+
+.program-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px; 
+}
+
+.program-card {
+  background-color: white;
+  border: 4px solid lightcyan;
+  background-color: whitesmoke;
+  border-radius: 8px;
+  box-shadow: 4px 4px 4px black;
+  text-align: center;
+  padding: 5px;
+  max-width: 500px;
+}
+
+.program-card h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.program-card img {
+  max-width: 100%; 
+  height: auto;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.program-card img:hover {
+  transform: scale(1.1);
+}
+
+.program-card p {
+  font-size: 16px;
+}
+
+
+
+
